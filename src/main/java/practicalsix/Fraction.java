@@ -54,7 +54,7 @@ public class Fraction {
    *
    */
   public double getDecimalValue() {
-    return (double)this.numer/(double)this.denom;
+    return (double)this.numer / (double)this.denom;
   }
   
   /** Provide String object representation.

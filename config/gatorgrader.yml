@@ -21,7 +21,7 @@ src/main/java/practicalsix:
         MatchFileFragment --fragment "{Your Name Here}" --count 0 --exact
         MatchFileFragment --fragment "TODO" --count 0 --exact
         MatchFileFragment --fragment "public double getDecimalValue() {" --count 1 --exact
-        MatchFileRegex --regex "(\()?double(\))?" --count 3
+        MatchFileRegex --regex "(\()?double(\))?" --count 2
         
 ExecuteCommand --command "gradle build"
 ExecuteCommand --command "gradle run -q --console plain run"
